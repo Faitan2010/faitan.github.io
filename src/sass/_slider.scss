@@ -1,0 +1,50 @@
+.slider {
+    padding: 81px 0;
+    position: relative;
+    &__image {
+        display: none;
+        }
+    & .active {
+        display: block;
+    }
+    &__inner {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .slick-prev, .slick-next {
+        border: none;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .slick-next {
+       right: -66px;
+       left: auto;
+    }
+    .slick-dots {
+        display: flex;
+        margin: 0 auto;
+        justify-content:center;
+        margin-right: 10px;
+        li {
+            padding-right: 10px;
+        }
+    }
+    #slick-slide-control {
+        &01 {
+            display: none;
+        }
+        &00 {
+            display: none;
+        }
+        &02 {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.footer {
+    iframe {
+        width:100%; 
+        height:630px;
+        border : 0;
+    }
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $main-color;
+        height: 270px;
+        width: 460px;
+        padding: 50px 53px 53px 56px;
+    }
+    &__addr {
+        font-weight: 500;
+        font-size: 20px;
+        color: #ffffff;
+        max-width: 353px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+    &__phone {
+        a {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 20px;
+            display: block;
+            text-align: center;
+            padding-bottom: 36px;
+            &:hover {
+                color:#FFFFFF;
+            }
+        }
+    }
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        width: 212px;
+        margin: 0 auto;
+        a {
+            border-radius: 100%;
+            border: 2px solid #FFFFFF;
+            padding: 12px;
+        }
+
+    }
+}

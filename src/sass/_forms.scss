@@ -1,0 +1,27 @@
+.consultation__form {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+input {
+    width: 303px;
+    height: 54px;
+    margin-bottom: 11px;
+    border: none;
+    padding: 0 20px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4B4B4B;
+    border-radius: 5px;
+}
+.consultation__button {
+    width: 303px;
+    height: 58px;
+    background: #C70101;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color:#FFFFFF;
+    border-radius: 5px;
+}

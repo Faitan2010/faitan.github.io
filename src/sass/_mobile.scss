@@ -1,0 +1,211 @@
+@media screen and (max-width: 991px) {
+    .advantage__flex {
+        flex-direction: column;
+    }
+    .advantage__info_img {
+        margin-top: 20px;
+    }
+    .header__image{
+        .header__main_h1 {
+            font-size: 35px;
+        }
+        .header__main_h2 {
+            font-size: 20px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 27px;
+            line-height: 1.5;
+        }
+    }
+    .slider {
+        max-width: 100%;
+        margin: 0 auto;
+        img {
+            width: 70%;
+            display: block;
+            margin: 0 auto;
+        }
+        &__inner {
+            max-width: 100%;
+        }
+        &__image {
+            max-width: 100%;
+        }
+        .slick-list {
+            height: 90%;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &__tabs {
+            margin-bottom: 57px;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .header__image {
+        .header__top_number {
+            font-size: 15px;
+        }
+        .header__top_name {
+            font-size: 12px;
+        }
+        .header__top_official {
+            margin-bottom: 5px;
+        }
+        .header__main_h1 {
+            font-size: 28px;
+        }
+        .header__main_h2 {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 21px;
+            line-height: 1.5;
+        }
+        .subtitle {
+            font-size: 16px;
+        }
+    }
+    .slider {
+        max-width: 100%;
+        margin: 0 auto;
+        img {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        &__inner {
+            max-width: 100%;
+        }
+        &__image {
+            max-width: 550px;
+        }
+        .slick-list {
+            height: 90%;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 32%;
+            font-size: 15px;
+        }
+    }
+    .review {
+        &__text_end {
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .header__image{
+        .header__top{
+            flex-direction: column;
+            &_name {
+                display: none;
+            }
+            &_official {
+                display: none;
+            }
+            &_block {
+                & img {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .header__main_h1 {
+            font-size: 24px;
+        }
+        .header__main_h2 {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .header__info {
+            max-width: 100%;
+            &_text {
+                font-size: 11px;
+                padding-right: 5px;
+            }
+        }
+    }
+    .consultation {
+        padding: 30px 0;
+        .title {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        .subtitle {
+            font-size: 15px;
+        }
+    }
+    .slider {
+        display: none;
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 27%;
+            font-size: 9px;
+        }
+        & .title {
+            font-size: 30px;
+            margin-top: 30px;
+        }
+    }
+    .review {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__image {
+            margin: 0 auto;
+            margin-bottom: 20px;
+            img {
+                margin-right: 0;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 310px;
+        }
+    }
+    .modal {
+        width: 260px;
+        &__close {
+            right: -30px;
+        }
+        input {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+        }
+    }
+    #consultation {
+        .modal__subtitle {
+            font-size: 16px;
+        }
+        .modal__description {
+            font-size: 13px;
+        }
+        button {
+            font-size: 14px;
+        }
+    }
+}
